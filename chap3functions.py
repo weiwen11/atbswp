@@ -13,6 +13,7 @@ def foo():
     global bar  # uses bar from global scope
     bar = 'hi'
 
+
 def divide(n):
     try:
         return 5 / n
@@ -37,7 +38,7 @@ ans = random.randint(low + 1, high)
 n = 0
 print('Guess a number between ' + str(low) + ' and ' + str(high))
 while True:
-    print('Take a guess: ' , end='')
+    print('Take a guess: ', end='')
     try:
         guess = int(input())
     except ValueError:
@@ -51,4 +52,3 @@ while True:
         print('Your guess is too low')
     elif guess > ans:
         print('Your guess is too high')
-
