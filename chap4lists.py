@@ -33,7 +33,7 @@ print()
 print(len(myList2d))
 
 # list concat and replication
-print(myList + ['Awie'])
+print(myList + ['Awee'])
 print(myList2d * 2)
 
 del myList[2]  # delete element, moves up
